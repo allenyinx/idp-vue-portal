@@ -97,12 +97,6 @@
           </a-avatar>
           <template #content>
             <a-doption>
-              <a-space @click="switchGit">
-                <icon-github />
-                <span>开源地址</span>
-              </a-space>
-            </a-doption>
-            <a-doption>
               <a-space @click="switchRoles">
                 <icon-tag />
                 <span>
@@ -124,30 +118,6 @@
                 <span>
                   {{ $t('messageBox.userSettings') }}
                 </span>
-              </a-space>
-            </a-doption>
-            <a-doption>
-              <a-space @click="open('/shop-vite')">
-                <icon-tag />
-                <span>shop vite 付费版本</span>
-              </a-space>
-            </a-doption>
-            <a-doption>
-              <a-space @click="open('/admin-plus')">
-                <icon-tag />
-                <span>admin plus 付费版本</span>
-              </a-space>
-            </a-doption>
-            <a-doption>
-              <a-space @click="open('/admin-pro')">
-                <icon-tag />
-                <span>admin pro 付费版本</span>
-              </a-space>
-            </a-doption>
-            <a-doption>
-              <a-space @click="open('/vue-admin-better')">
-                <icon-tag />
-                <span>admin better 开源版</span>
               </a-space>
             </a-doption>
             <a-doption>
